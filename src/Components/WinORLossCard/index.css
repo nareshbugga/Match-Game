@@ -1,0 +1,40 @@
+/* win or loss card*/
+.WinOrLoss-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trophy {
+  width: 200px;
+  height: 160px;
+  margin-top: 150px;
+}
+.winner-score {
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+}
+.play-again {
+  background-color: #cf60c8;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.reset-button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+}

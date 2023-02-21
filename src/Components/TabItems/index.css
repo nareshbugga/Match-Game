@@ -1,0 +1,18 @@
+.button-tab {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.text-decoration {
+  color: #fec653;
+  text-decoration: underline;
+}
+.tab-list {
+  list-style-type: none;
+}

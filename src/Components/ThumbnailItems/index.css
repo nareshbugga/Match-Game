@@ -1,0 +1,8 @@
+.thumbnail-image {
+  width: 100px;
+  height: 100px;
+}
+.image-list {
+  list-style-type: none;
+  margin-right: 10px;
+}
