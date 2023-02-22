@@ -1,8 +1,12 @@
 .thumbnail-image {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 }
 .image-list {
   list-style-type: none;
   margin-right: 10px;
+}
+.thumbnail-button {
+  background-color: transparent;
+  border: none;
 }

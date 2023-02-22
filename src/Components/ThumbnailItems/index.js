@@ -6,12 +6,9 @@ const ThumbnailItems = props => {
   const onClickImage = () => onMatch(thumbnailUrl)
   return (
     <li className="image-list">
-      <img
-        src={thumbnailUrl}
-        alt="thumbnail"
-        className="thumbnail-image"
-        onClick={onClickImage}
-      />
+      <button type="button" onClick={onClickImage} className="thumbnail-button">
+        <img src={thumbnailUrl} alt="thumbnail" className="thumbnail-image" />
+      </button>
     </li>
   )
 }

@@ -14,7 +14,7 @@ body {
 .main-container {
   background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
   background-size: cover;
-  min-height: 110vh;
+  min-height: 130vh;
 }
 .nav-bar-logo {
   width: 150px;

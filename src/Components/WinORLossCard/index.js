@@ -12,7 +12,7 @@ const WinORLossCard = props => {
         alt="trophy"
         className="trophy"
       />
-      <p className="winner-score">Your Score</p>
+      <p className="winner-score">YOUR SCORE</p>
       <p className="winner-score">{score}</p>
       <div className="play-again">
         <img
