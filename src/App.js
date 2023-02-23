@@ -283,7 +283,7 @@ class App extends Component {
 
   onMatch = thumbnailUrl => {
     const {imageStatus} = this.state
-    const index = Math.ceil(Math.random() * imagesList.length - 1)
+    const index = Math.floor(Math.random() * imagesList.length)
     const result = thumbnailUrl === imageStatus.thumbnailUrl
     if (result) {
       this.setState(prevState => ({score: prevState.score + 1}))
@@ -302,6 +302,7 @@ class App extends Component {
       time: 60,
       status: true,
     })
+    this.timeId = setInterval(this.CheckTime, 1000)
   }
 
   render() {
